@@ -5,6 +5,9 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+.body {
+  background-color: #979ea4;
+}
 
 .wrapper{
   overflow-x: hidden;
@@ -237,11 +240,13 @@
 
 /* Custom CSS for the carousel container */
 .carousel-container {
-  max-width: 100%;
+  margin-left: 15%;
+  align-items: center;
+  max-width: 70%;
   max-height: 5%;
   background-color: #333;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 30px;
+  border-radius: 15px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -310,4 +315,8 @@
 .carousel-item:not(.active) .carousel-caption {
   transform: translateY(100%);
 }
-
+.active{
+  background-color: #391a54;
+  max-width: 100%;
+  min-height: 5%;
+}
