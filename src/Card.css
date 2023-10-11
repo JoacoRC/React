@@ -1,0 +1,27 @@
+.containerCard{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: rgb(0, 123, 255);
+}
+.card{
+    margin: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    transition: background-color 1.2s ease;
+    box-shadow: 1px;
+}
+.card:hover {
+    background-color: #7c0999c2; /* Cambiar el color de fondo al pasar el mouse por encima */
+  }
+.imgCard{
+    padding: 10px;
+    max-width: 100%;
+    border-radius: 30px;
+}
+.card-title{
+    color: burlywood;
+}
+.card-text{
+    color: burlywood;
+}
